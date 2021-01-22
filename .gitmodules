@@ -1,0 +1,3 @@
+[submodule "php-sip"]
+	path = php-sip
+	url = https://github.com/simontelephonics/php-sip
