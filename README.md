@@ -22,6 +22,7 @@ Place the included `php-sip` library in a directory of that name under `sms`.
 
 ## FreePBX configuration
 
+### Trunk
 Set up a PJSIP trunk for 127.0.0.1 as follows:
 
 ![PJSIP trunk](https://user-images.githubusercontent.com/5303782/105723214-85843f80-5ef4-11eb-94e1-6e38e35e448b.png)
@@ -34,7 +35,7 @@ Set the Message Context:
 
 ![PJSIP message context field](https://user-images.githubusercontent.com/5303782/105723305-a0ef4a80-5ef4-11eb-82ba-1be9766a9e9e.png)
 
-
+### Extensions
 For each extension that will participate in SMS, set the Account Code to the normalized DID this extension will send and receive as, and set the Message Context:
 
 ![Extension settings](https://user-images.githubusercontent.com/5303782/105723337-ab114900-5ef4-11eb-99d0-333328a07479.png)
