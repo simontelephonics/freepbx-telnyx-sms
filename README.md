@@ -53,7 +53,7 @@ For each extension that will participate in SMS, set the Account Code to the nor
 
 Set up a Messaging Profile (APIv2) in Telnyx:
 
-![Telnyx messaging profile](https://user-images.githubusercontent.com/5303782/105724305-b4e77c00-5ef5-11eb-846d-8b58e958b14b.png)
+![Telnyx messaging profile](https://user-images.githubusercontent.com/5303782/224144132-896646c3-c875-4918-843b-aa05344f1edc.png)
 
 Specify the path to the `telnyx.php` script in Inbound Settings:
 
