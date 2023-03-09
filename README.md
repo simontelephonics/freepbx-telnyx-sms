@@ -13,7 +13,7 @@ Make a directory under (wwwroot) called `sms` and ensure it can be reached by HT
 Place the `out.php` and `telnyx.php` scripts into `sms` and adjust them according to your environment.
 
 out.php:
-* add your Telnyx API token
+* add your Telnyx APIv2 API key
 
 telnyx.php:
 * note the instructions in the comments at the top of the file
@@ -51,7 +51,7 @@ For each extension that will participate in SMS, set the Account Code to the nor
 
 ## Telnyx configuration
 
-Set up a Messaging Profile (APIv1) in Telnyx:
+Set up a Messaging Profile (APIv2) in Telnyx:
 
 ![Telnyx messaging profile](https://user-images.githubusercontent.com/5303782/105724305-b4e77c00-5ef5-11eb-846d-8b58e958b14b.png)
 
